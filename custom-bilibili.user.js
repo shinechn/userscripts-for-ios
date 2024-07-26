@@ -8,6 +8,8 @@
 // @grant GM_addStyle
 // @run-at document-start
 // @match *://www.bilibili.com/*
+// @match *://search.bilibili.com/*
+
 
 // ==/UserScript==
 
