@@ -13,7 +13,8 @@
 
 (function () {
   let css = `
-  
+  div.vcd,
+  .ad-floor-cover,
   .vip-wrap,
   .left-entry,
   .header-avatar-wrap.v-popover-wrap,
