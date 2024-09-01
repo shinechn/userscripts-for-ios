@@ -8,14 +8,13 @@
 // @grant GM_addStyle
 // @run-at document-start
 // @match *://www.bilibili.com/*
-// @match *://search.bilibili.com/*
-
 
 // ==/UserScript==
 
 (function () {
   let css = `
-  div.vcd,
+  #right-bottom-banner,
+  .ad-report,
   .ad-floor-cover,
   .vip-wrap,
   .left-entry,
@@ -38,7 +37,7 @@
   {
       display:none!important;
   }
-  
+
   `;
   if (typeof GM_addStyle !== "undefined") {
     GM_addStyle(css);
